@@ -1,0 +1,165 @@
+$primary: #3292a6;
+
+@mixin transition($property) {
+    -webkit-transition: $property;
+    transition: $property;
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px $primary;
+    background-color: #fff;
+    opacity: .9;
+
+    .nav-item {
+        font-size: 1.4rem;
+        padding-right: 20px;
+    }
+
+    .nav-item:last-child {
+        padding-right: 0;
+    }
+
+    .nav-link {
+        color: #252525 !important;
+        @include transition(.5s ease-in-out);
+    }
+
+    .nav-link:hover {
+        color: $primary !important;
+    }
+
+}
+
+// Showcase Section Css Start
+#showcase {
+    background: url(img/mountains.jpg);
+    margin-top: 5.8rem;
+
+    .primary-overlay {
+        background-color: rgba(50,146,156,.7);
+    }
+
+    h1 {
+        color: #f8f9fa;
+        font-size: 6rem;
+        font-weight: 100;
+    }
+
+    p {
+        color: #f8f9fa;
+        margin: 2rem 0;
+    }
+
+}
+
+// subscribe Section Css
+#subscribe {
+
+    button {
+        background-color: $primary;
+        border-color: $primary;
+    }
+
+}
+
+// box section css 
+#box {
+
+    .primary-text {
+        
+        .card {
+            background-color: $primary;
+            color: #fff;
+
+            h3 {
+                color: #fff;
+            }
+        }
+
+    }
+
+    .card {
+        border-color: $primary;
+
+        h3 {
+            color: $primary;
+        }
+    }
+
+}
+
+// About Section css
+#about {
+
+    .info-book {
+        h2 {
+            color: $primary;
+        }
+    }
+
+}
+
+// Author Section css
+#athors {
+
+    h2 {
+        color: $primary;
+    }
+
+    .card:hover {
+        background-color: $primary;
+        color: #fff;
+
+        .fab {
+            color: #fff;
+        }
+    }
+
+    img {
+        margin-top: -70px;
+    }
+
+    .fab {
+        font-size: 25px;
+        color: $primary;
+    }
+
+}
+
+// Contact Section Css
+#contact {
+
+    .input-group-text {
+        border-radius: 0;
+    }
+
+    .form-control {
+        border-radius: 0;
+    }
+
+    .btn-primary {
+        background-color: $primary;
+        border-color: $primary;
+        border-radius: 0;
+    }
+
+}
+
+// Footer Area Css
+footer {
+
+    background-color: $primary;
+    color: #fff;
+
+    a {
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+        @include transition(.5s);
+    }
+
+    a:hover {
+        color: #fff;
+    }
+
+}

@@ -1,0 +1,81 @@
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  background-color: #fff;
+  opacity: .9; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+  .navbar .nav-item:last-child {
+    padding-right: 0; }
+  .navbar .nav-link {
+    color: #252525 !important;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out; }
+  .navbar .nav-link:hover {
+    color: #3292a6 !important; }
+
+#showcase {
+  background: url(img/mountains.jpg);
+  margin-top: 5.8rem; }
+  #showcase .primary-overlay {
+    background-color: rgba(50, 146, 156, 0.7); }
+  #showcase h1 {
+    color: #f8f9fa;
+    font-size: 6rem;
+    font-weight: 100; }
+  #showcase p {
+    color: #f8f9fa;
+    margin: 2rem 0; }
+
+#subscribe button {
+  background-color: #3292a6;
+  border-color: #3292a6; }
+
+#box .primary-text .card {
+  background-color: #3292a6;
+  color: #fff; }
+  #box .primary-text .card h3 {
+    color: #fff; }
+#box .card {
+  border-color: #3292a6; }
+  #box .card h3 {
+    color: #3292a6; }
+
+#about .info-book h2 {
+  color: #3292a6; }
+
+#athors h2 {
+  color: #3292a6; }
+#athors .card:hover {
+  background-color: #3292a6;
+  color: #fff; }
+  #athors .card:hover .fab {
+    color: #fff; }
+#athors img {
+  margin-top: -70px; }
+#athors .fab {
+  font-size: 25px;
+  color: #3292a6; }
+
+#contact .input-group-text {
+  border-radius: 0; }
+#contact .form-control {
+  border-radius: 0; }
+#contact .btn-primary {
+  background-color: #3292a6;
+  border-color: #3292a6;
+  border-radius: 0; }
+
+footer {
+  background-color: #3292a6;
+  color: #fff; }
+  footer a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+  footer a:hover {
+    color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
